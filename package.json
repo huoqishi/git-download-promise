@@ -1,0 +1,26 @@
+{
+  "name": "git-download-promise",
+  "version": "1.0.0",
+  "description": "download git repo tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "repo",
+    "archive",
+    "promise",
+    "download",
+    "github",
+    "gitlab",
+    "码云"
+  ],
+  "author": "huoqishi",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^6.2.5",
+    "git-clone-promise": "^1.0.0",
+    "rimraf": "^2.6.2"
+  }
+}
