@@ -22,7 +22,7 @@ $ yarn add git-clone-promise
   // bitbucket:owner/name  => download from bitbucket
   const repo = '/huoqishi/x-html'
   download(repo, 'test/').then(() => {
-    console.log('ok)
+    console.log('ok')
   })
 ```
 
