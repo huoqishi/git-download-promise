@@ -1,7 +1,7 @@
 {
   "name": "get-git-repository",
-  "version": "1.0.1",
-  "description": "down`",
+  "version": "1.0.2",
+  "description": "download git repo`",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/huoqishi/git-download-promise.git"
   },
-  "keywords": [],
+  "keywords": ["git", "download", "repo", "repository"],
   "author": "",
   "license": "ISC",
   "bugs": {

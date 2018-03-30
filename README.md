@@ -5,17 +5,17 @@ down a git repository, support `github`, `gitlab`, `bitbucket`, `gitee(码云)`
 ## Installation
 
 ```bash
-$ npm install git-clone-promise
+$ npm install get-git-repository
 ```
 or:
 ```bash
-$ yarn add git-clone-promise
+$ yarn add get-git-repository
 ```
 
 ## Usage
 
 ```js
-  const download = require('git-download-promise')
+  const download = require('get-git-repository')
   // owner/repository  => download from github
   // github:owner/repository  => download from github
   // gitlab:owner/repository  => download from github
