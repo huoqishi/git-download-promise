@@ -18,8 +18,9 @@ $ yarn add get-git-repository
   const download = require('get-git-repository')
   // owner/repository  => download from github
   // github:owner/repository  => download from github
-  // gitlab:owner/repository  => download from github
-  // bitbucket:owner/name  => download from bitbucket
+  // gitlab:owner/repository  => download from gitlab
+  // gitee:owner/repository  => download from gitee
+  // bitbucket:owner/repository  => download from bitbucket
   const repo = '/huoqishi/x-html'
   download(repo, 'test/').then(() => {
     console.log('ok')
