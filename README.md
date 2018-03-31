@@ -50,3 +50,6 @@ clone `repo` to `savePath`, return `promise` on completion.
 © huoqishi & 火骑士空空
 
 Released under the [MIT](https://choosealicense.com/licenses/isc/).
+
+
+目前问题: 没有删除.git文件夹

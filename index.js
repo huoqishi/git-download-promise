@@ -26,13 +26,10 @@ function download (repo, dest, opts) {
   return new Promise((resolve, reject) => {
     console.log(url)
     clone
-      ? gitclone(url, dest, { checkout: repo.checkout, shallow: repo.checkout === 'master' }, function (err) {
-          if (err) {
-            return reject(err)
-          }
+      ? gitclone(url, dest, { checkout: repo.checkout, shallow: repo.checkout === 'master' }).then(() => {
           rm(dest + '/.git')
           resolve()
-        })
+      }, reject)
       : downloadUrl(url, dest, { extract: true, strip: 1, mode: '666', headers: { accept: 'application/zip' } }).then(data => {
           resolve(data)
         }).catch(err => {
