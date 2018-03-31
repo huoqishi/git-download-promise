@@ -21,7 +21,7 @@ module.exports = download
 function download (repo, dest, opts) {
   opts = opts || {}
   repo = normalize(repo)
-  const clone = justClone || !!opts.clone
+  const clone = repo.justClone || !!opts.clone
   const url = getUrl(repo, clone)
   return new Promise((resolve, reject) => {
     console.log(url)
