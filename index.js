@@ -110,10 +110,10 @@ function addProtocol (origin, clone) {
  */
 
 function getUrl (repo, clone) {
-  const url
+  let url
 
   // Get origin with protocol and add trailing slash or colon (for ssh)
-  const origin = addProtocol(repo.origin, clone)
+  let origin = addProtocol(repo.origin, clone)
   if (/^git\@/i.test(origin))
     origin = origin + ':'
   else

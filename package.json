@@ -1,6 +1,6 @@
 {
   "name": "get-git-repository",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "download git repo`",
   "main": "index.js",
   "directories": {
